@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+  }
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+@font-face {
+    font-family: samsungsharpsans-bold;
+    src: url(./fonts/samsungsharpsans-bold.otf);
+}
+@font-face {
+    font-family: SamsungOne;
+    src: url(./fonts/samsungsharpsans.otf);
+}
+.Article{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 53px 142px 0;
+}
+.Article-heading{
+    font-size: 27px;
+    font-weight: 700;
+    font-family: 'samsungsharpsans-bold', arial, sans-serif;
+    color: #000;
+    border-bottom: solid 1px #e5e1e1;
+}
+.Article-detection{
+    margin: 90px 0px 90px 0px;
+    background: #fff0c1;
+    border: 1px solid #ffe79e;
+    display: block;
+    border-radius: 35px;
+    padding: 28px 30px;
+    color: #000;
+    font-size: 18px;
+    font-family: 'Roboto';
+    line-height: 170%;
+    font-weight: 400;
+}
+.Article-strong{
+    margin: 90px 0px 90px 0px;
+}
+.Article-strong h2{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 30px;
+}
+.Article-strong h3{
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 30px;
+}
+.Article-strong ul{
+    padding: 0px 0px 0px 18px;
+}
+.Article-strong ul li{
+    font-family: 'Roboto';
+    font-weight: 300;
+    margin-bottom: 34px;
+    margin-top: 34px;
+    font-size: 18px;
+}
+.Article-settings h2{
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 30px;
+}
+.Article-settings p{
+    font-family: 'Roboto';
+    font-weight: 300;
+    margin-bottom: 34px;
+    margin-top: 34px;
+    font-size: 18px;
+}
+
