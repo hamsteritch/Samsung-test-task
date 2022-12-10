@@ -43,16 +43,14 @@ body {
 }
 .Article-strong{
     margin: 90px 0px 90px 0px;
+    border-radius: 35px;
+    padding: 10px 28px;
+    background-color: #f7f7f7;
 }
-.Article-strong h2{
+.Article-strong_attention{
+
     font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 30px;
-}
-.Article-strong h3{
-    font-family: 'Roboto';
-    font-weight: 600;
-    font-size: 30px;
+    font-size: 25px;
 }
 .Article-strong ul{
     padding: 0px 0px 0px 18px;
