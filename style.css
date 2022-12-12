@@ -22,11 +22,12 @@ body {
     padding: 53px 142px 0;
 }
 .Article-heading{
-    font-size: 27px;
+    font-size: 25px;
     font-weight: 700;
     font-family: 'samsungsharpsans-bold', arial, sans-serif;
     color: #000;
     border-bottom: solid 1px #e5e1e1;
+
 }
 .Article-detection{
     margin: 90px 0px 90px 0px;
