@@ -1,11 +1,11 @@
 * {
     box-sizing: border-box;
-  }
+}
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 @font-face {
@@ -25,6 +25,7 @@ body {
     font-family: 'samsungsharpsans-bold', arial, sans-serif;
     color: #000;
     border-bottom: solid 1px #e5e1e1;
+
 }
 .Article-detection{
     margin: 90px 0px 90px 0px;
