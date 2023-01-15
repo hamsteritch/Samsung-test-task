@@ -10,19 +10,17 @@ body {
 }
 @font-face {
     font-family: samsungsharpsans-bold;
-    src: url(./fonts/samsungsharpsans-bold.otf);
+    src: url(/static/fonts/samsungsharpsans-bold.otf);
 }
 @font-face {
     font-family: SamsungOne;
-    src: url(./fonts/samsungsharpsans.otf);
+    src: url(/static/fonts/samsungsharpsans-bold.otf);
 }
 .Article{
     max-width: 1440px;
     margin: 0 auto;
-    padding: 53px 142px 0;
 }
 .Article-heading{
-    font-size: 27px;
     font-weight: 700;
     font-family: 'samsungsharpsans-bold', arial, sans-serif;
     color: #000;
@@ -78,4 +76,78 @@ body {
 .Article-settings-image{
     display:flex;
     justify-content: center;
+}
+
+
+@media (min-width: 1440px){
+    .Article{
+        padding: 53px 142px 0;
+    }
+    .Article-heading{
+        font-size: 26px;
+    }
+    .Article-settings-image img{
+        width: 50%;
+    }
+}
+@media (max-width: 1440px){
+    .Article{
+        padding: 53px 142px 0;
+    }
+    .Article-heading{
+        font-size: 1.6vw;
+    }
+    .Article-settings-image img{
+        width: 50%;
+    }
+}
+@media (max-width: 1024px){
+    .Article{
+        padding: 53px 100px 0;
+        
+    }
+    .Article-heading{
+        font-size: 1.5vw;
+        
+    }
+}
+@media (max-width: 961px){
+    .Article{
+        padding: 53px 90px 0;
+    }
+    .Article-heading{
+        font-size: 1.45vw;
+        
+    }
+}
+@media (max-width: 768px){
+    .Article{
+        padding: 53px 50px 0;
+    }
+    .Article-heading{
+        font-size: 1.8vw;
+        
+    }
+    .Article-settings-image img{
+        width: 100%;
+    }
+}
+@media (max-width: 530px){
+    .Article{
+        padding: 53px 20px 0;
+    }
+    .Article-heading{
+        text-align: center;
+        font-size: 3.5vw;
+    }
+}
+@media (max-width: 350px){
+    .Article-heading{
+        font-size: 4vw;
+    }
+}
+@media (max-width: 290px){
+    .Article-heading{
+        font-size: 3.8vw;
+    }
 }
